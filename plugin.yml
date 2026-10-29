@@ -1,0 +1,20 @@
+name: FunItems
+version: ${project.version}
+main: ru.funitems.FunItemsPlugin
+api-version: '1.21'
+author: you
+description: Кастомные предметы в стиле FunTime
+
+commands:
+  funitems:
+    description: Управление кастомными предметами
+    usage: /<command> <give|list|reload>
+    aliases: [fi]
+
+permissions:
+  funitems.admin:
+    description: Доступ модерации к выдаче и управлению предметами
+    default: op
+  funitems.use:
+    description: Возможность использовать кастомные предметы
+    default: true

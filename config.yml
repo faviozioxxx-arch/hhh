@@ -1,0 +1,220 @@
+# FunItems — настройки кастомных предметов
+# Цвета: символ & (например &6 — золотой)
+
+messages:
+  prefix: "&8[&6FunItems&8] &f"
+  cooldown: "&cПодождите ещё &e%s &cсек."
+  no-permission: "&cНет прав."
+  given: "&aВыдано: &f%s &ax%d &aигроку &f%s"
+  reloaded: "&aКонфиг перезагружен."
+  unknown-item: "&cТакого предмета нет. Список: /funitems list"
+  player-not-found: "&cИгрок не найден."
+
+items:
+  trap:
+    name: "&6&lТрапка"
+    cooldown: 30        # секунд
+    duration: 15        # сколько секунд держится клетка
+    block: OBSIDIAN
+  plast:
+    name: "&b&lПласт"
+    cooldown: 20
+    duration: 10
+    block: PRISMARINE_BRICKS
+  disorient:
+    name: "&5&lДезориентация"
+    cooldown: 25
+    radius: 8.0
+    duration: 8         # секунд эффекта
+  divine_aura:
+    name: "&e&lБожья аура"
+    cooldown: 45
+    duration: 10
+  reveal_dust:
+    name: "&f&lЯвная пыль"
+    cooldown: 30
+    radius: 15.0
+    duration: 12
+  freeze_snowball:
+    name: "&3&lСнежок-заморозка"
+    cooldown: 10
+    duration: 5
+  fire_swirl:
+    name: "&c&lОгненный смерч"
+    cooldown: 35
+    radius: 6.0
+    fire_seconds: 6
+    launch: 0.9         # сила подбрасывания вверх
+  holy_water:
+    name: "&a&lСвятая вода"
+    cooldown: 40
+    regen_seconds: 8
+  # Дополнительные предметы: ванильные предметы помечаются FunItems и выдаются модераторами.
+  totem:
+    name: "&e&lТотем ФанТайм"
+    cooldown: 0
+  totem_god:
+    name: "&e&lБожественный тотем"
+    cooldown: 0
+  totem_pvp:
+    name: "&e&lПВП-тотем"
+    cooldown: 0
+  totem_heal:
+    name: "&e&lТотем лечения"
+    cooldown: 0
+  wooden_sword:
+    name: "&e&lWooden меч"
+    cooldown: 0
+  stone_sword:
+    name: "&e&lStone меч"
+    cooldown: 0
+  iron_sword:
+    name: "&e&lIron меч"
+    cooldown: 0
+  golden_sword:
+    name: "&e&lGolden меч"
+    cooldown: 0
+  diamond_sword:
+    name: "&e&lDiamond меч"
+    cooldown: 0
+  netherite_sword:
+    name: "&e&lNetherite меч"
+    cooldown: 0
+  leather_helmet:
+    name: "&e&lLeather шлем"
+    cooldown: 0
+  leather_chestplate:
+    name: "&e&lLeather нагрудник"
+    cooldown: 0
+  leather_leggings:
+    name: "&e&lLeather поножи"
+    cooldown: 0
+  leather_boots:
+    name: "&e&lLeather ботинки"
+    cooldown: 0
+  chainmail_helmet:
+    name: "&e&lChainmail шлем"
+    cooldown: 0
+  chainmail_chestplate:
+    name: "&e&lChainmail нагрудник"
+    cooldown: 0
+  chainmail_leggings:
+    name: "&e&lChainmail поножи"
+    cooldown: 0
+  chainmail_boots:
+    name: "&e&lChainmail ботинки"
+    cooldown: 0
+  iron_helmet:
+    name: "&e&lIron шлем"
+    cooldown: 0
+  iron_chestplate:
+    name: "&e&lIron нагрудник"
+    cooldown: 0
+  iron_leggings:
+    name: "&e&lIron поножи"
+    cooldown: 0
+  iron_boots:
+    name: "&e&lIron ботинки"
+    cooldown: 0
+  golden_helmet:
+    name: "&e&lGolden шлем"
+    cooldown: 0
+  golden_chestplate:
+    name: "&e&lGolden нагрудник"
+    cooldown: 0
+  golden_leggings:
+    name: "&e&lGolden поножи"
+    cooldown: 0
+  golden_boots:
+    name: "&e&lGolden ботинки"
+    cooldown: 0
+  diamond_helmet:
+    name: "&e&lDiamond шлем"
+    cooldown: 0
+  diamond_chestplate:
+    name: "&e&lDiamond нагрудник"
+    cooldown: 0
+  diamond_leggings:
+    name: "&e&lDiamond поножи"
+    cooldown: 0
+  diamond_boots:
+    name: "&e&lDiamond ботинки"
+    cooldown: 0
+  netherite_helmet:
+    name: "&e&lNetherite шлем"
+    cooldown: 0
+  netherite_chestplate:
+    name: "&e&lNetherite нагрудник"
+    cooldown: 0
+  netherite_leggings:
+    name: "&e&lNetherite поножи"
+    cooldown: 0
+  netherite_boots:
+    name: "&e&lNetherite ботинки"
+    cooldown: 0
+  turtle_helmet:
+    name: "&e&lTurtle шлем"
+    cooldown: 0
+  golden_apple:
+    name: "&e&lЗолотое яблоко"
+    cooldown: 0
+  enchanted_golden_apple:
+    name: "&e&lЗачарованное золотое яблоко"
+    cooldown: 0
+  ender_pearl:
+    name: "&e&lЭндер-жемчуг"
+    cooldown: 0
+  chorus_fruit:
+    name: "&e&lПлод хоруса"
+    cooldown: 0
+  wind_charge:
+    name: "&e&lВетряной заряд"
+    cooldown: 0
+  firework_rocket:
+    name: "&e&lФейерверк"
+    cooldown: 0
+  ender_chest:
+    name: "&e&lЭндер-сундук"
+    cooldown: 0
+  obsidian:
+    name: "&e&lОбсидиан"
+    cooldown: 0
+  crying_obsidian:
+    name: "&e&lПлачущий обсидиан"
+    cooldown: 0
+  cobweb:
+    name: "&e&lПаутина"
+    cooldown: 0
+  water_bucket:
+    name: "&e&lВедро воды"
+    cooldown: 0
+  lava_bucket:
+    name: "&e&lВедро лавы"
+    cooldown: 0
+  shield:
+    name: "&e&lЩит"
+    cooldown: 0
+  crossbow:
+    name: "&e&lАрбалет"
+    cooldown: 0
+  bow:
+    name: "&e&lЛук"
+    cooldown: 0
+  trident:
+    name: "&e&lТрезубец"
+    cooldown: 0
+  mace:
+    name: "&e&lБулава"
+    cooldown: 0
+  golden_carrot:
+    name: "&e&lЗолотая морковь"
+    cooldown: 0
+  splash_potion:
+    name: "&e&lВзрывное зелье"
+    cooldown: 0
+  lingering_potion:
+    name: "&e&lТуманное зелье"
+    cooldown: 0
+  experience_bottle:
+    name: "&e&lПузырёк опыта"
+    cooldown: 0
